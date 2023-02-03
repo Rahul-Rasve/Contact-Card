@@ -69,7 +69,7 @@ class _ContactCardState extends State<ContactCard> {
             padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 10.0),
             child: ListTile(
               onTap: () async {
-                final url = 'tel: 85510143348';
+                final url = 'tel: 1234567890';
                 if (await canLaunchUrlString(url)) {
                   await launchUrlString(url);
                 }
@@ -80,7 +80,7 @@ class _ContactCardState extends State<ContactCard> {
                 color: Colors.blue,
               ),
               title: Text(
-                '+91 (85510) 13348',
+                '+91 (12345) 67890',
                 style: TextStyle(
                   fontSize: 25.0,
                   fontFamily: 'SourceSansPro',
@@ -99,7 +99,7 @@ class _ContactCardState extends State<ContactCard> {
             padding: EdgeInsets.symmetric(vertical: 5.0, horizontal: 5.0),
             child: ListTile(
               onTap: () async {
-                final url = 'mailto:rahulrasve712@gmail.com';
+                final url = 'mailto:rahul@gmail.com';
                 if (await canLaunchUrlString(url)) {
                   await launchUrlString(url);
                 }
@@ -110,9 +110,9 @@ class _ContactCardState extends State<ContactCard> {
                 color: Colors.blue,
               ),
               title: Text(
-                'rahulrasve712@gmail.com',
+                'rahul@gmail.com',
                 style: TextStyle(
-                  fontSize: 22.0,
+                  fontSize: 25.0,
                   fontFamily: 'SourceSansPro',
                   fontWeight: FontWeight.bold,
                 ),
