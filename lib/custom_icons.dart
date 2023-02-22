@@ -26,6 +26,6 @@ class CustomIcons {
   static const String? _kFontPkg = null;
 
   static const IconData twitter = IconData(0xf309, fontFamily: _kFontFam, fontPackage: _kFontPkg);
-  static const IconData linkedin_circled = IconData(0xf319, fontFamily: _kFontFam, fontPackage: _kFontPkg);
+  static const IconData linkedinCircled = IconData(0xf319, fontFamily: _kFontFam, fontPackage: _kFontPkg);
   static const IconData instagram = IconData(0xf32d, fontFamily: _kFontFam, fontPackage: _kFontPkg);
 }

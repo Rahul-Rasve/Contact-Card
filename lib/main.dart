@@ -176,7 +176,7 @@ class _ContactCardState extends State<ContactCard> {
                     }
                   },
                   leading: Icon(
-                    CustomIcons.linkedin_circled,
+                    CustomIcons.linkedinCircled,
                     size: 37.0,
                     color: Colors.blue,
                   ),
